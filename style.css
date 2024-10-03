@@ -1,0 +1,83 @@
+/* 
+cor de fundo: #2B2929
+cor de texto: #BDC1CA
+cor de borda: #C0CDD3
+fonte: "Roboto", sans-serif
+*/
+
+/* removendo os estilos padrão do navegador */
+h1, h2, p, ul, li, a:-webkit-any-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: unset;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #2B2929;
+    color: #BDC1CA;
+}
+
+main {
+    width: 30vw;
+    margin: 0 auto;
+}
+
+figure {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #C0CDD3;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.mdi {
+    font-size: 36px;
+}
+
+@media (max-width: 960px) {
+    main {
+        width: 94vw;
+    }
+}
